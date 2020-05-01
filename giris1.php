@@ -23,7 +23,6 @@ if($giris){
 	if($giris['yetki_id']==1) //admin için yetki_id = 1 tanımladım
 	{
 		echo "admin girişi"; 
-		header("Location: #.php");// buraya admin girdiğinde hangi sayfaya yönlendireceğimizi yazıcaz
 	}
 	else if($giris['yetki_id']==2) // yetkili için yetki_id = 2 tanımladım
 	{
